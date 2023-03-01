@@ -1,7 +1,7 @@
 
 from fastapi.testclient import TestClient
 import sys
-sys.path.insert(0, '../Lab5.3')
+sys.path.insert(0, '../pytest07')
 from main import app
 
 Client = TestClient(app)
